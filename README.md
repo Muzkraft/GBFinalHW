@@ -30,7 +30,7 @@ Desktop Documents Downloads  HumanFriends.txt  Music  PackAnimals.txt  Pets.txt 
 - cd Farm
 - ls
 
-![task1](../screenshots/task1.png)
+![task1](screenshots/task1.png)
 
 ---
 
@@ -46,7 +46,7 @@ Desktop Documents Downloads  HumanFriends.txt  Music  PackAnimals.txt  Pets.txt 
 - sudo apt install mysql-server mysql-client
 - sudo dpkg -r mysql-server mysql-client
 
-![task3](../screenshots/task3.png)
+![task3](screenshots/task3.png)
 
 5. История команд в терминале Ubuntu
    - Сохранить и выложить историю ваших терминальных команд в Ubuntu.
@@ -60,7 +60,7 @@ Desktop Documents Downloads  HumanFriends.txt  Music  PackAnimals.txt  Pets.txt 
 Каждый тип животных будет характеризоваться (например, имена, даты рождения, выполняемые команды и т.д)
 Диаграмму можно нарисовать в любом редакторе, такими как Lucidchart, Draw.io, Microsoft Visio и других.
 ---
-![diagramm](../screenshots/diagramm.png)
+![diagramm](screenshots/diagramm.png)
 
 ---
 
@@ -259,7 +259,7 @@ FROM hamsters hm
 LEFT JOIN young_animals yo ON yo.Name = hm.Name
 LEFT JOIN pets p ON p.Id = hm.Genus_id;
 ```
-![table](../screenshots/table.png)
+![table](screenshots/table.png)
 ---
 
 8. ООП и Java

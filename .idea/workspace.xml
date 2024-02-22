@@ -16,7 +16,7 @@
       <change afterPath="$PROJECT_DIR$/src/Model/Pet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Model/PetCreator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Model/PetType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PetFarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Resources/database.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Services/IRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Services/PetRepository.java" afterDir="false" />
