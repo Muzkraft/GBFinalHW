@@ -1,4 +1,4 @@
-package UI;
+package UserInterface;
 
 import java.util.List;
 import java.util.Scanner;
@@ -33,11 +33,11 @@ public class ConsoleView implements View <Pet> {
             if (clazz == Pet.class)
                 System.out.println("\n          Наши питомцы:");
             for (T item : list) {
-                System.out.println(item);
+                System.out.println(item);              
             }
         }
     }
-
+    
     @Override
     public void showMessage(String message) {
         System.out.println(message);

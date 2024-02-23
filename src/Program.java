@@ -2,7 +2,7 @@ import Controller.PetController;
 import Model.Pet;
 import Services.IRepository;
 import Services.PetRepository;
-import UI.ConsoleMenu;
+import UserInterface.ConsoleMenu;
 
 public class Program {
     public static void main(String[] args) throws Exception {
@@ -11,4 +11,4 @@ public class Program {
         PetController controller = new PetController(myFarm);
         new ConsoleMenu (controller).start();
     }
-}
+}    

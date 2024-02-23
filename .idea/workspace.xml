@@ -4,29 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873556f6-37f5-4e07-b4e0-1c5aeca0b913" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/PetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/IncorrectData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Creator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Hamster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/PetCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/PetType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/IRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/PetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/ConsoleMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/ConsoleView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+    <list default="true" id="873556f6-37f5-4e07-b4e0-1c5aeca0b913" name="Changes" comment="all messed up">
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/UncorrectDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserInterface/ConsoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserInterface/ConsoleView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserInterface/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/IncorrectData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Creator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Hamster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/PetCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PetCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PetType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/IRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/IRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/PetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/PetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/ConsoleMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/ConsoleView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/View.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +45,28 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2caBweCXlPtQbggs80vIy3DVU2u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -87,5 +103,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Main_java$Main.ic" NAME="Main Coverage Results" MODIFIED="1708702041023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>

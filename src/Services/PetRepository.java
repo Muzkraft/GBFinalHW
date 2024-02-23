@@ -1,4 +1,4 @@
-﻿package Services;
+package Services;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ public class PetRepository implements IRepository<Pet> {
     private Statement sqlSt;
     private ResultSet resultSet;
     private String SQLstr;
-
+    
     public PetRepository() {
         this.petCreator = new PetCreator();
     };
@@ -39,17 +39,17 @@ public class PetRepository implements IRepository<Pet> {
                     int id = resultSet.getInt(2);
                     String name = resultSet.getString(3);
                     LocalDate birthday = resultSet.getDate(4).toLocalDate();
-
+                    
                     pet = petCreator.createPet(type, name, birthday);
                     pet.setPetId(id);
                     farm.add(pet);
                 }
                 return farm;
-            }
+            } 
         } catch (ClassNotFoundException | IOException | SQLException ex) {
             Logger.getLogger(PetRepository.class.getName()).log(Level.SEVERE, null, ex);
             throw new RuntimeException(ex.getMessage());
-        }
+        }           
     }
 
     @Override
@@ -73,9 +73,9 @@ public class PetRepository implements IRepository<Pet> {
 
                     pet = petCreator.createPet(type, name, birthday);
                     pet.setPetId(id);
-                }
+                } 
                 return pet;
-            }
+            } 
         } catch (ClassNotFoundException | IOException | SQLException ex) {
             Logger.getLogger(PetRepository.class.getName()).log(Level.SEVERE, null, ex);
             throw new RuntimeException(ex.getMessage());
@@ -92,7 +92,7 @@ public class PetRepository implements IRepository<Pet> {
                 SQLstr = "INSERT INTO pet_list (PetName, Birthday, GenusId) SELECT ?, ?, (SELECT Id FROM pet_types WHERE Genus_name = ?)";
                 PreparedStatement prepSt = dbConnection.prepareStatement(SQLstr);
                 prepSt.setString(1, pet.getName());
-                prepSt.setDate(2, Date.valueOf(pet.getBirthdayDate()));
+                prepSt.setDate(2, Date.valueOf(pet.getBirthdayDate())); 
                 prepSt.setString(3, pet.getClass().getSimpleName());
 
                 rows = prepSt.executeUpdate();
@@ -101,7 +101,7 @@ public class PetRepository implements IRepository<Pet> {
         } catch (ClassNotFoundException | IOException | SQLException ex) {
             Logger.getLogger(PetRepository.class.getName()).log(Level.SEVERE, null, ex);
             throw new RuntimeException(ex.getMessage());
-        }
+        } 
     }
 
     public void train (int id, String command){
@@ -118,11 +118,11 @@ public class PetRepository implements IRepository<Pet> {
         } catch (ClassNotFoundException | IOException | SQLException ex) {
             Logger.getLogger(PetRepository.class.getName()).log(Level.SEVERE, null, ex);
             throw new RuntimeException(ex.getMessage());
-        }
+        } 
     }
 
-    public List<String> getCommandsById (int petId, int commands_type){
-
+    public List<String> getCommandsById (int petId, int commands_type){   
+        
         // commands type = 1  - получить команды, выполняемые питомцем, 2 - команды, выполнимые животным того рода, к которому относится питомец
 
         List <String> commands = new ArrayList <>();
@@ -145,7 +145,7 @@ public class PetRepository implements IRepository<Pet> {
         } catch (ClassNotFoundException | IOException | SQLException ex) {
             Logger.getLogger(PetRepository.class.getName()).log(Level.SEVERE, null, ex);
             throw new RuntimeException(ex.getMessage());
-        }
+        } 
     }
 
     @Override
@@ -158,16 +158,16 @@ public class PetRepository implements IRepository<Pet> {
                 PreparedStatement prepSt = dbConnection.prepareStatement(SQLstr);
 
                 prepSt.setString(1, pet.getName());
-                prepSt.setDate(2, Date.valueOf(pet.getBirthdayDate()));
+                prepSt.setDate(2, Date.valueOf(pet.getBirthdayDate())); 
                 prepSt.setInt(3,pet.getPetId());
-
+                
                 rows = prepSt.executeUpdate();
                 return rows;
             }
         } catch (ClassNotFoundException | IOException | SQLException ex) {
             Logger.getLogger(PetRepository.class.getName()).log(Level.SEVERE, null, ex);
             throw new RuntimeException(ex.getMessage());
-        }
+        } 
     }
 
     @Override
@@ -183,7 +183,7 @@ public class PetRepository implements IRepository<Pet> {
         } catch (ClassNotFoundException | IOException | SQLException ex) {
             Logger.getLogger(PetRepository.class.getName()).log(Level.SEVERE, null, ex);
             throw new RuntimeException(ex.getMessage());
-        }
+        } 
     }
 
     public static Connection getConnection() throws SQLException, IOException {

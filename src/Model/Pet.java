@@ -4,11 +4,11 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public abstract class Pet {
-
+    
     protected int petId;
     protected String name;
     protected LocalDate birthday;
-
+    
     public void setPetId(int petId) {
         this.petId = petId;
     }
