@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873556f6-37f5-4e07-b4e0-1c5aeca0b913" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/PetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/IncorrectData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Creator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Hamster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/PetCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/PetType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/IRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/PetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/ConsoleMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/ConsoleView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="873556f6-37f5-4e07-b4e0-1c5aeca0b913" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +17,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2caBweCXlPtQbggs80vIy3DVU2u" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -87,5 +66,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Main_java$Main.ic" NAME="Main Coverage Results" MODIFIED="1708702041023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>
