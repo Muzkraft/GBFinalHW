@@ -1,7 +1,7 @@
-package Model;
+﻿package Model;
 
 public enum PetType {
-
+    
     Cat,
     Dog,
     Hamster;

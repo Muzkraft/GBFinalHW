@@ -1,4 +1,4 @@
-package Exceptions;
+﻿package Exceptions;
 
 public class UncorrectDataException extends RuntimeException{
     
