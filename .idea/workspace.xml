@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873556f6-37f5-4e07-b4e0-1c5aeca0b913" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/System/src/Exceptions/UncorrectDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System/src/Model/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System/src/Model/Creator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System/src/Model/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System/src/Model/Hamster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System/src/Model/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System/src/Model/PetCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System/src/Model/PetType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/System/src/Services/PetRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System/src/Controller/PetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/System/src/Controller/PetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System/src/Controller/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/System/src/Controller/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System/src/Exceptions/IncorrectData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/System/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/System/src/PetFarm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System/src/Resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/System/src/Resources/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="873556f6-37f5-4e07-b4e0-1c5aeca0b913" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
