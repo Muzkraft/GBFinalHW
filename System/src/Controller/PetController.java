@@ -3,15 +3,15 @@ package Controller;
 import Model.*;
 import Services.IRepository;
 import Services.PetRepository;
-import UserInterface.*;
+import UI.*;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class PetController {
+    private final View<Pet> view;
     private IRepository<Pet> petRepository;
     private Creator petCreator;
-    private final View<Pet> view;
     private Validator validator;
 
     public PetController(IRepository<Pet> petRepository) {

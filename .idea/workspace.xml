@@ -5,28 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="873556f6-37f5-4e07-b4e0-1c5aeca0b913" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/System/src/Exceptions/UncorrectDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/System/src/Model/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/System/src/Model/Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/System/src/Model/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/System/src/Model/Hamster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/System/src/Model/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/System/src/Model/PetCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/System/src/Model/PetType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/System/src/Services/PetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/diagramm.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/diagramm.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/diagramm.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/diagramm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Counter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PetController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Validator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/IncorrectData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Creator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Hamster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Pet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/PetCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/PetType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resources/database.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/IRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/PetRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/ConsoleMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/ConsoleView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/System/src/Controller/PetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/System/src/Controller/PetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/System/src/Controller/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/System/src/Controller/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/System/src/Exceptions/IncorrectData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/System/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/System/src/PetFarm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/System/src/Resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/System/src/Resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,36 +47,52 @@
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2caBweCXlPtQbggs80vIy3DVU2u" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Edu/FinalHW/PetFarm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;last_directory_selection&quot;: &quot;E:/Edu/FinalHW/PetFarm/target/classes/Model&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Edu/FinalHW/PetFarm/System&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunAnythingContextRecentDirectoryCache">
     <option name="paths">
       <recentPaths value="$PROJECT_DIR$" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Program">
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RunManager">
+    <configuration name="PetFarm" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PetFarm" />
       <module name="PetFarm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/System" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="jdk.jpackage.main.Main" />
+          <option name="ENABLED" value="false" />
         </pattern>
       </extension>
       <method v="2">
@@ -93,6 +106,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Program" />
+      <item itemvalue="Application.PetFarm" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -127,6 +144,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Main_java$Main.ic" NAME="Main Coverage Results" MODIFIED="1708702041023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

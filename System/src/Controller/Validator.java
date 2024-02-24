@@ -28,14 +28,14 @@ public class Validator {
             }
         }
         if (flag == false) {
-            throw new IncorrectDataException(sb.toString());
+            throw new UncorrectDataException(sb.toString());
         }
     }
 
     private boolean isValidName(String name) {
         for (int i = 0; i < name.length(); i++) {
             if (!Character.UnicodeBlock.of(name.charAt(i)).equals(Character.UnicodeBlock.CYRILLIC)) {
-                throw new IncorrectDataException(String.format("некорректно задано имя, допустимы только буквы кириллицы"));
+                throw new UncorrectDataException(String.format("некорректно задано имя, допустимы только буквы кириллицы"));
             }
         }
         return true;
@@ -53,14 +53,14 @@ public class Validator {
             day = date.getDayOfMonth();
 
         } catch (DateTimeParseException e) {
-            throw new IncorrectDataException("некорректный формат даты");
+            throw new UncorrectDataException("некорректный формат даты");
         }
 
         if ((Arrays.asList(month_30).contains(date.getMonthValue()) && day > 30) ||
                 (date.isLeapYear() && date.getMonthValue() == 2 && day > 29) ||
                 (!date.isLeapYear() && date.getMonthValue() == 2 && day > 28)) {
 
-            throw new IncorrectDataException("введена некорректная дата рождения");
+            throw new UncorrectDataException("введена некорректная дата рождения");
 
         } else
             return true;

@@ -2,13 +2,14 @@ import Controller.PetController;
 import Model.Pet;
 import Services.IRepository;
 import Services.PetRepository;
-import UserInterface.ConsoleMenu;
+import UI.ConsoleMenu;
 
-public class Program {
+public class PetFarm {
     public static void main(String[] args) throws Exception {
 
-        IRepository <Pet> myFarm = new PetRepository();
+
+        IRepository<Pet> myFarm = new PetRepository();
         PetController controller = new PetController(myFarm);
-        new ConsoleMenu (controller).start();
+        new ConsoleMenu(controller).start();
     }
 }    
