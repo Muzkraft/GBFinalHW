@@ -1,10 +1,11 @@
-package UserInterface;
+package UI;
+
+import Model.*;
 
 import java.util.List;
 import java.util.Scanner;
-import Model.*;
 
-public class ConsoleView implements View <Pet> {
+public class ConsoleView implements View<Pet> {
 
     Scanner in;
 
@@ -25,7 +26,7 @@ public class ConsoleView implements View <Pet> {
     }
 
     @Override
-    public <T> void printAll (List <T> list, Class <T> clazz) {
+    public <T> void printAll(List<T> list, Class<T> clazz) {
         System.out.print("\033[H\033[J");
         if (list.isEmpty())
             System.out.println("список пуст");

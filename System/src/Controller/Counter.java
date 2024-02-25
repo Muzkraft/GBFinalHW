@@ -3,6 +3,7 @@ package Controller;
 public class Counter implements AutoCloseable {
 
     static int sum;
+
     {
         sum = 0;
     }

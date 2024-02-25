@@ -1,17 +1,17 @@
 package Controller;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import Exceptions.UncorrectDataException;
 import Model.*;
 import Services.IRepository;
 import Services.PetRepository;
-import UserInterface.*;
+import UI.*;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class PetController {
+    private final View<Pet> view;
     private IRepository<Pet> petRepository;
     private Creator petCreator;
-    private final View<Pet> view;
     private Validator validator;
 
     public PetController(IRepository<Pet> petRepository) {
@@ -23,7 +23,7 @@ public class PetController {
 
     public void createPet(PetType type) {
 
-        String[] data = new String[] { view.getName(), view.getBirthday() };
+        String[] data = new String[]{view.getName(), view.getBirthday()};
         validator.validate(data);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
         LocalDate birthday = LocalDate.parse(data[1], formatter);
@@ -39,7 +39,7 @@ public class PetController {
     public void updatePet(int id) {
 
         Pet pet = getById(id);
-        String[] data = new String[] { view.getName(), view.getBirthday() };
+        String[] data = new String[]{view.getName(), view.getBirthday()};
 
         validator.validate(data);
 
