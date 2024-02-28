@@ -1,10 +1,11 @@
 package Controller;
 
+import Exceptions.*;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.Arrays;
-import Exceptions.*;
 
 public class Validator {
 
@@ -26,17 +27,17 @@ public class Validator {
                 flag = false;
             }
         }
-        if (flag == false){
+        if (!flag){
             throw new UncorrectDataException(sb.toString());
         } 
     }
 
     private boolean isValidName (String name){
-        for (int i = 0; i < name.length(); i++) {
-            if (! Character.UnicodeBlock.of(name.charAt(i)).equals(Character.UnicodeBlock.CYRILLIC)) {
-                throw new UncorrectDataException(String.format("некорректно задано имя, допустимы только буквы кириллицы"));
-            }
-        }
+//        for (int i = 0; i < name.length(); i++) {
+//            if (! Character.UnicodeBlock.of(name.charAt(i)).equals(Character.UnicodeBlock.CYRILLIC)) {
+//                throw new UncorrectDataException(String.format("некорректно задано имя, допустимы только буквы кириллицы"));
+//            }
+//        }
         return true;
     }
     

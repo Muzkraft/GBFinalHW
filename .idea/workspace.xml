@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873556f6-37f5-4e07-b4e0-1c5aeca0b913" name="Changes" comment="fix5.2">
-      <change beforePath="$PROJECT_DIR$/System/src/UI/ConsoleView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/System/src/UI/View.java" beforeDir="false" />
+    <list default="true" id="873556f6-37f5-4e07-b4e0-1c5aeca0b913" name="Changes" comment="fix5.3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Hamster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/PetCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PetCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/PetType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/PetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/PetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Resources/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +62,14 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Edu\FinalHW\PetFarm" />
-      <recent name="E:\Edu\FinalHW\PetFarm\src\main" />
+      <recent name="E:\Edu\FinalHW\PetFarm\src\PetFarm" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="PetFarm" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="PetFarm" />
       <extension name="coverage">
@@ -106,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709062283627</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix5.3">
+      <created>1709062577729</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709062577729</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,7 +140,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fix5.1" />
     <MESSAGE value="fix5.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix5.2" />
+    <MESSAGE value="fix5.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix5.3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Main_java$Main.ic" NAME="Main Coverage Results" MODIFIED="1708702041023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
