@@ -1,36 +1,36 @@
 package Services;
 
+import Model.*;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.sql.*;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.sql.*;
-import java.time.LocalDate;
-import Model.*;
 
 
 public class PetRepository implements IRepository<Pet> {
 
-    private Creator petCreator;
-    private Statement sqlSt;
+    private final Creator petCreator;
     private ResultSet resultSet;
     private String SQLstr;
     
     public PetRepository() {
         this.petCreator = new PetCreator();
-    };
+    }
 
     @Override
     public List<Pet> getAll() {
-        List<Pet> farm = new ArrayList<Pet>();
+        List<Pet> farm = new ArrayList<>();
         Pet pet;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             try (Connection dbConnection = getConnection()) {
-                sqlSt = dbConnection.createStatement();
+                Statement sqlSt = dbConnection.createStatement();
                 SQLstr = "SELECT GenusId, Id, PetName, Birthday FROM pet_list ORDER BY Id";
                 resultSet = sqlSt.executeQuery(SQLstr);
                 while (resultSet.next()) {

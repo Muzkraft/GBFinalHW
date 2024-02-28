@@ -3,16 +3,12 @@ package Model;
 public class PetCreator extends Creator {
 
     @Override
-    protected Pet createNewPet (PetType type) {
+    protected Pet createNewPet(PetType type) {
 
-        switch (type) {
-            case Cat:
-                return new Cat();
-            case Dog:
-                return new Dog();
-            case Hamster:
-                return new Hamster();
-        }
-        return null;
+        return switch (type) {
+            case Cat -> new Cat();
+            case Dog -> new Dog();
+            case Hamster -> new Hamster();
+        };
     }
 }
